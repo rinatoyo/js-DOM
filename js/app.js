@@ -57,6 +57,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var igeSan = document.createElement('div')
+igeSan.id = 'name7';
+igeSan.innerHTML = 'David Ige'
+nameParent.appendChild(igeSan);
  
 /*8. The Dos Equis Dude
 
