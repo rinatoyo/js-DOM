@@ -26,11 +26,16 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
+var divAlias = document.getElementById('alias3');
+divAlias.innerHTML = 'Concatenation';
+
 
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
+var favSong = document.getElementsByClassName('profile');
+favSong[0].innerHTML = 'When Doves Cry';
 
 
 /*5. Bruce Lee
