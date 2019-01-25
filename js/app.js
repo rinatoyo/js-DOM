@@ -37,12 +37,12 @@ Find the div with the class name of "profile" and replace the n/a with a verse f
 var favSong = document.getElementsByClassName('profile');
 favSong[0].innerHTML = 'When Doves Cry';
 
-
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var quote = document.getElementsByClassName('profile');
+quote[1].innerHTML = "If you spend too much time thinking about a thing, you'll never get it done.";
 
 /*6. Samuel L Jackson
 
