@@ -48,7 +48,8 @@ quote[1].innerHTML = "If you spend too much time thinking about a thing, you'll 
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var favChar = document.getElementsByClassName('alias');
+favChar[2].innerHTML = 'Jules Winnfield';
 
 /*7. David Ige
 
