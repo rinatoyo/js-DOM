@@ -68,7 +68,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var thirsty = document.createElement('div');
+thirsty.id = 'alias8';
+thirsty.innerHTML = 'Stay Thirsty My Friends';
+aliasParent.appendChild(thirsty);
 
 //Final Boss
 /*9. Create your own profile.*/
